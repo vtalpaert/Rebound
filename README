@@ -1,1 +1,4 @@
-A simple server to be excecuted on start, general purpose (for now)
+Rebound
+=======
+
+A simple Python server for the RPi, to be excecuted on start. General purpose (for now).
