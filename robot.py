@@ -83,7 +83,7 @@ class BaseRobot(object):
         elif self.task == '1':
             self.un()
         else:
-            logging.info('Robot : ERROR, unexpected command. Did client send a compatible string?')
+            logging.info('Robot : ERROR, I don\'t understand "{}"'.format(self.task))
         self.last_task = self.task
 
     # when quitting, executed from server.py
